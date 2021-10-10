@@ -1,3 +1,3 @@
-# Docker Molecule Fedora 34
+# Docker Molecule Fedora 35
 
-Fedora 34 Docker container for [molecule](https://molecule.readthedocs.io/en/latest/) role testing.
+Fedora 35 Docker container for [molecule](https://molecule.readthedocs.io/en/latest/) role testing.

@@ -20,9 +20,11 @@ RUN dnf -y update && dnf clean all \
 
 # Install requirements.
 RUN dnf makecache \
+ && dnf upgrade -y \
  && dnf -y install \
       sudo \
       which \
+      ca-certificates \
  && dnf clean all
 
 # Disable requiretty.

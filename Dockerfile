@@ -26,6 +26,7 @@ RUN dnf makecache \
       sudo \
       which \
       ca-certificates \
+      iproute \
  && dnf clean all
 
 # Disable requiretty.
